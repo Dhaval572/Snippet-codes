@@ -1,0 +1,14 @@
+"Graphics Snippet": {
+		"prefix": "Graphics",
+		"body": [
+			"#include <graphics.h>\n",
+			"int main()",
+			"{",
+			"\tinitwindow(600, 500);\n",
+			"\t$1\n",
+			"\tgetch();",
+			"\tclosegraph();",
+			"\treturn 0;",
+			"}",
+		],
+	}
