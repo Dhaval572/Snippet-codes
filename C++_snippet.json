@@ -1,0 +1,12 @@
+"C++ Snippet": {
+		"prefix": "CPP Boilerplate",
+		"body": [
+			"#include <iostream>",
+			"using namespace std;\n",
+			"int main()",
+			"{",
+				"\t$1",
+				"\treturn 0;",
+			"}",
+		],
+	}
