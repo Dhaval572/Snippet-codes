@@ -1,0 +1,10 @@
+"Print to console": {
+		"prefix": "C Boilerplate",
+		"body":[
+			"#include <stdio.h>\n",
+			"void main()",
+			"{",
+			"\t$1",
+			"}",
+		],
+	}
