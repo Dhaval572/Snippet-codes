@@ -5,9 +5,14 @@
 			"int main()",
 			"{",
 			"\tInitWindow(600, 500, \" \");\n",
-			"\t$1\n",
+			"\twhile (!WindowShouldClose())",
+			"\t{",
+			"\t\tBeginDrawing();\n",
+			"\t\t$1\n",
+			"\t\tEndDrawing();\n",
+			"\t}",
 			"\tCloseWindow();",
 			"\treturn 0;",
-			"}",
-		],
-	},
+			"}"
+		]
+	}
