@@ -1,0 +1,13 @@
+"Raylib Snippet": {
+		"prefix": "Raylib",
+		"body": [
+			"#include <raylib.h>\n",
+			"int main()",
+			"{",
+			"\tInitWindow(600, 500, \" \");\n",
+			"\t$1\n",
+			"\tCloseWindow();",
+			"\treturn 0;",
+			"}",
+		],
+	},
