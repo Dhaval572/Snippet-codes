@@ -1,0 +1,11 @@
+"Print to console": 
+	{
+		"prefix": "main",
+		"body": 
+		[
+			"public static void main(String[] args)",
+			"{",
+			"\t$1",
+			"}",
+		],
+	}
