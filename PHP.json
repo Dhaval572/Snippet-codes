@@ -1,0 +1,8 @@
+"Print to console": {
+		"prefix": "php",
+		"body": [
+			"<?php",
+			"\t$1",
+			"?>"
+		],
+	}
