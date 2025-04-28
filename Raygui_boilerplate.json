@@ -1,0 +1,21 @@
+"Raygui Minimal Snippet": {
+		"prefix": "Gui",
+		"body": [
+			"#define RAYGUI_IMPLEMENTATION",
+			"#include <raylib.h>",
+			"#include <raygui.h>\n",
+			"int main()",
+			"{",
+			"\tInitWindow(800, 600, \" \");\n",
+			"\tSetTargetFPS(60);",
+			"\twhile (!WindowShouldClose())",
+			"\t{",
+			"\t\tBeginDrawing();\n",
+			"\t\t$1\n",
+			"\t\tEndDrawing();",
+			"\t}\n",
+			"\tCloseWindow();",
+			"\treturn 0;",
+			"}"
+		],
+	}
